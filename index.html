@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/@smash-sdk/uploader@2.1.5/dist/SmashUploader.browser.js"></script>
-    <title>API SMASH</title>
+    <title>Mini Drive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/@smash-sdk/uploader/dist/SmashUploader.browser.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Meu drive</h1>
+        <h1>Meu Drive</h1>
 
-        <input type="file" id:"uploadInput" multiple>
-        <button onclick="upload()">Enviar</button>"
+        <input type="file" id="uploadInput" multiple>
+        <button onclick="upload()">Enviar</button>
 
         <p id="messageArea"></p>
 
-        <ul id="filelist"></ul>
+        <ul id="fileList"></ul>
     </div>
-    <script src="js/script.js></script>
+    
+    <script src="js/script.js"></script>
 </body>
 </html>
